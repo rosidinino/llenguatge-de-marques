@@ -3,22 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica01</title>
-     <img src="logo.jpg" width="200" height="100" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin">Linkedin</a> &nbsp;
-     <a href="https://x.com/"> X</a>
-    <br>
-    <br>
-    <br>
-    <br>
-     <b>Inici</b>  &nbsp;    <b>Presentacio</b> &nbsp;     <b>Practiques</b>  &nbsp;    <b>CV</b> &nbsp; <b>Contacte</b>
-
-
-
-     
-
-
-    </head>
+    <link rel="stylesheet" href="css/styles.css">    <title>Practica01</title>
+</head>
 <body>
-</body>
+    <header>
+        <div class="header-logo">
+            <img src="/dades/llenguatge-de-marques/imagenes/carles.JPG" width="200" height="100" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="header-xarxes">    
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank">
+                <img src="/dades/llenguatge-de-marques/linkedin.png"  width="50" height="50">
+            </a> 
+            <a href="https://x.com/" target="_blank"> 
+                <img src="/dades/llenguatge-de-marques/x.png"  width="50" height="50">
+            </a>
+            <br>
+        </div>
+        <nav>
+            <a href="inici.html"> Inici</a>
+            <a href="inici.html"> Presentació</a>
+            <a href="inici.html"> Practiques</a>
+            <a href="inici.html"> CV</a>
+            <a href="inici.html"> Contacte</a>
+
+        </nav>
+    
+    </header>
+    <body>
+        <section>
+            <h1>Form</h1>
+            <form action="/my-handling-form-page" method="post">
+                <li>
+                    <label for="Nom">Nom:</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <label for="Correu">Correu:</label>
+                    <input type="text">
+                </li>  
+                <li>  
+                    <label for="Motiu">Motiu:</label>
+                    <input type="text">
+                </li>
+                <li>    
+                    <label for="Missatge">Missatge:</label>
+                    <input type="text">
+                </li>
+            </Form>
+            <li class="button">
+                <button type="submit">Envia</button>
+            </li>
+
+        </section>
+
+        <aside>
+            <h3>Articles Relacionats</h3>
+            <ul>
+                <li>
+                    <label for="consells">5 consells per millorar la productivitat</label>
+                </li>
+                <li>
+                    <label for="temps">Com gestionar el teu temps de manera eficient</label>
+                </li>
+                <li>
+                    <label for="Eines">Eines digitals per treballar des de casa</label>
+                </li>
+            </ul>
+
+        </aside>
+    </body>
+
 </html>
